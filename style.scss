@@ -5,6 +5,8 @@
     --sec-card-container: rgba(62, 60, 60, 0.3);
     --sec-card: rgba(142, 141, 141, 0.1);
     --secondary-color: #FFFFFFB2;
+    --risk-container: rgba(0,0,0,0.3);
+    --product-card: #B305E733;
 }
 
 [data-bs-theme='dark'] {
@@ -21,5 +23,6 @@ body {
 @import "./theming";
 @import "./navbar";
 @import "./heroSection";
+@import "./risk-section";
 @import "./course-section";
 @import "./security-culture-section";
