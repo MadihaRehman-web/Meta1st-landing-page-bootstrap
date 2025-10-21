@@ -1,0 +1,57 @@
+.hero-section {
+    .container-fluid {
+        .hero-content {
+            .pinkish-purple {
+                color: #ff2ceac7;
+            }
+
+            .hero-btn {
+                @extend %button;
+            }
+        }
+
+            .hero-img {
+        position: relative;
+        
+        .circle {
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+        }
+
+        .circle1 {
+            background-image: url("./assets/hero-section-ellipse/circle-ellipse-1.png");
+            width: 13.5rem;
+            height: 7.5rem;
+            right: 0rem;
+            top: 1.437rem;
+        }
+
+        .circle2 {
+            background-image: url("./assets/hero-section-ellipse/circle-ellipse-2.png");
+            width: 7rem;
+            height: 2.3rem;
+            left: 1.875rem;
+            top: 1.125rem;
+        }
+
+        .circle3 {
+            background-image: url("./assets/hero-section-ellipse/circle-ellipse-3.png");
+            width: 6.5rem;
+            height: 4.5rem;
+            left: 0rem;
+            top: 5.813rem;
+        }
+
+        .circle4 {
+            background-image: url("./assets/hero-section-ellipse/circle-ellipse-4.png");
+            width: 4.063rem;
+            height: 1.188rem;
+            left: -2.188rem;
+            bottom: 6rem;
+        }
+    }
+    }
+
+}

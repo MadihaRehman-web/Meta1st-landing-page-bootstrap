@@ -1,6 +1,19 @@
 :root {
-    --primary-color : white;
+    --bg-color : white;
+    --text-color : black;
 }
+
+[data-bs-theme='dark'] {
+    --bg-color : black;
+    --text-color : white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
 
 @import "./theming";
 @import "./navbar";
+@import "./heroSection";

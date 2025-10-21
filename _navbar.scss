@@ -87,5 +87,15 @@
             }
         }
 
+        .user-auth {
+            .nav-link {
+                color: var(--text-color);
+            }
+
+            .sign-btn {
+                border-color: var(--text-color);
+            }
+        }
+
     }
 }
