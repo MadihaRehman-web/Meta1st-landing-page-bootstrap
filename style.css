@@ -17,7 +17,7 @@ body {
   color: var(--text-color);
 }
 
-.hero-section .container-fluid .hero-content .hero-btn {
+.courses .container-fluid .course-content button, .hero-section .container-fluid .hero-content .hero-btn {
   font-size: 1.25rem;
   outline: none;
   cursor: pointer;
@@ -30,12 +30,12 @@ body {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
-.hero-section .container-fluid .hero-content .hero-btn:hover {
+.courses .container-fluid .course-content button:hover, .hero-section .container-fluid .hero-content .hero-btn:hover {
   -webkit-box-shadow: 0px 0px 8px 7px #5422BE;
           box-shadow: 0px 0px 8px 7px #5422BE;
 }
 @media (max-width: 370px) {
-  .hero-section .container-fluid .hero-content .hero-btn {
+  .courses .container-fluid .course-content button, .hero-section .container-fluid .hero-content .hero-btn {
     font-size: 1rem;
   }
 }
@@ -111,6 +111,9 @@ body {
   border-color: var(--text-color);
 }
 
+.hero-section {
+  margin-top: 7rem;
+}
 .hero-section .container-fluid .hero-content .pinkish-purple {
   color: rgba(255, 44, 234, 0.7803921569);
 }
@@ -150,6 +153,18 @@ body {
   height: 1.188rem;
   left: -2.188rem;
   bottom: 6rem;
+}
+
+.courses {
+  position: relative;
+  z-index: 0;
+  margin-top: 10rem;
+}
+.courses .container-fluid .course-content {
+  font-family: var(--primary-font);
+}
+.courses .container-fluid .course-video video {
+  border-radius: 2rem;
 }
 
 .security-cultures {
