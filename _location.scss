@@ -1,0 +1,22 @@
+.location {
+    margin-top: 13rem;
+    // position: relative;
+    // z-index: 0;
+    .map {
+        // height: 65vh;  
+        border-radius: 0.5rem;     
+        filter: invert(100%);
+    }
+
+    // @media(max-width: 1150px) {
+    //     margin-top: 10rem;
+    // }
+
+    // @media(max-width: 650px) {
+    //     margin-top: 7rem;
+    //     .map {
+    //         height: 40vh;  
+    //     }
+    // }
+
+}
