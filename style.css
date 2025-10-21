@@ -1,0 +1,68 @@
+:root {
+  --primary-color: white;
+}
+
+.navbar .container-fluid .navbar-nav .nav-item .nav-link {
+  color: var(--primary-color);
+}
+.navbar .container-fluid .navbar-nav .nav-item .nav-link:hover {
+  color: rgba(255, 44, 234, 0.7803921569) !important;
+  border-bottom: 1px solid rgba(255, 44, 234, 0.7803921569);
+}
+.navbar .container-fluid .navbar-nav .nav-item .nav-link:focus {
+  color: rgba(255, 44, 234, 0.7803921569) !important;
+}
+.navbar .container-fluid .theme-switcher .switch {
+  position: relative;
+  display: inline-block;
+  width: 4.375rem;
+  height: 1.7;
+}
+.navbar .container-fluid .theme-switcher .switch .slider {
+  position: absolute;
+  background-image: linear-gradient(135deg, #8aaff1 10%, #f9c290 50%, #e4ba17 100%);
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 2.125rem;
+}
+.navbar .container-fluid .theme-switcher .switch .slider::before {
+  position: absolute;
+  content: "";
+  height: 1.25rem;
+  width: 1.25rem;
+  right: 0.2rem;
+  bottom: 0.13rem;
+  background-color: white;
+  border-radius: 2.125rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.navbar .container-fluid .theme-switcher .switch .slider::after {
+  content: "";
+  position: absolute;
+  height: 0.688rem;
+  width: 0.688rem;
+  left: 0.5rem;
+  top: 0.313rem;
+  background-color: rgb(249, 249, 153);
+  -webkit-box-shadow: 0px 0px 8px 1px rgb(244, 244, 112);
+          box-shadow: 0px 0px 8px 1px rgb(244, 244, 112);
+  border-radius: 2.125rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.navbar .container-fluid .theme-switcher .switch input:checked + .slider {
+  background-image: linear-gradient(135deg, #c33764 20%, #002746 60%, #1d2671 20%);
+}
+.navbar .container-fluid .theme-switcher .switch input:checked + .slider:after {
+  -webkit-transform: translateX(2.688rem);
+          transform: translateX(2.688rem);
+  background-color: white;
+}
+.navbar .container-fluid .theme-switcher .switch input:checked + .slider:before {
+  -webkit-transform: translateX(-2.7rem);
+          transform: translateX(-2.7rem);
+}
