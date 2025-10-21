@@ -1,6 +1,10 @@
 :root {
     --bg-color : white;
     --text-color : black;
+    --primary-font: 'Kanit', sans-serif;
+    --sec-card-container: rgba(62, 60, 60, 0.3);
+    --sec-card: rgba(142, 141, 141, 0.1);
+    --secondary-color: #FFFFFFB2;
 }
 
 [data-bs-theme='dark'] {
@@ -17,3 +21,4 @@ body {
 @import "./theming";
 @import "./navbar";
 @import "./heroSection";
+@import "./security-culture-section";

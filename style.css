@@ -1,6 +1,10 @@
 :root {
   --bg-color: white;
   --text-color: black;
+  --primary-font: "Kanit", sans-serif;
+  --sec-card-container: rgba(62, 60, 60, 0.3);
+  --sec-card: rgba(142, 141, 141, 0.1);
+  --secondary-color: #FFFFFFB2;
 }
 
 [data-bs-theme=dark] {
@@ -23,6 +27,8 @@ body {
   border: 1px solid transparent;
   background: -webkit-gradient(linear, left top, left bottom, from(black)) padding-box, -webkit-gradient(linear, left top, right top, from(#5422BE), to(#E087FD)) border-box;
   background: linear-gradient(black) padding-box, linear-gradient(to right, #5422BE, #E087FD) border-box;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 .hero-section .container-fluid .hero-content .hero-btn:hover {
   -webkit-box-shadow: 0px 0px 8px 7px #5422BE;
@@ -144,4 +150,36 @@ body {
   height: 1.188rem;
   left: -2.188rem;
   bottom: 6rem;
+}
+
+.security-cultures {
+  font-family: var(--primary-font);
+}
+.security-cultures .sec-heading {
+  font-family: var(--primary-font);
+}
+.security-cultures .sec-cards {
+  background-color: var(--sec-card-container);
+  border-radius: 20px;
+}
+.security-cultures .sec-cards .card {
+  width: 36.6%;
+  border-radius: 20px;
+  min-height: 21.375rem;
+  background-color: var(--sec-card);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.security-cultures .sec-cards .card:hover {
+  -webkit-box-shadow: 0px 0px 9px 4px var(--text-color);
+          box-shadow: 0px 0px 9px 4px var(--text-color);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+.security-cultures .sec-cards .card img {
+  height: 8rem;
+  width: 8rem;
+}
+.security-cultures .sec-cards .card .card-text {
+  font-size: 12px;
 }
