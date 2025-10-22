@@ -1,6 +1,7 @@
 .hero-section {
     margin-top: 7rem;
     .container-fluid {
+        column-gap: 3rem;
         .hero-content {
             .pinkish-purple {
                 color: #ff2ceac7;
@@ -11,7 +12,7 @@
             }
         }
 
-            .hero-img {
+        .hero-img {
         position: relative;
         
         .circle {

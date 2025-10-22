@@ -125,7 +125,6 @@ body {
 }
 .footer .footer-content .email-input {
   height: 3.125rem;
-  width: 24.375rem;
   outline: none;
   color: #3C64B1;
 }
@@ -145,7 +144,6 @@ body {
   color: #3C64B1;
 }
 .footer .footer-content .subscribe-btn {
-  width: 8.75rem;
   height: 3rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#B700E5), to(#8733F3));
   background-image: linear-gradient(to bottom, #B700E5, #8733F3);
@@ -187,6 +185,11 @@ body {
 .footer .support .join-us .icons .fa-linkedin-in:hover {
   background-color: #0A66C2;
 }
+@media (max-width: 700px) {
+  .footer .footer-content {
+    padding-inline: 2rem;
+  }
+}
 .footer .copy-rights {
   margin-top: 5.5rem;
   height: 2.875rem;
@@ -205,9 +208,22 @@ body {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
+@media (max-width: 650px) {
+  .location {
+    margin-top: 7rem;
+  }
+  .location .map {
+    height: 40vh;
+  }
+}
 
 .hero-section {
   margin-top: 7rem;
+}
+.hero-section .container-fluid {
+  -webkit-column-gap: 3rem;
+     -moz-column-gap: 3rem;
+          column-gap: 3rem;
 }
 .hero-section .container-fluid .hero-content .pinkish-purple {
   color: rgba(255, 44, 234, 0.7803921569);
@@ -275,6 +291,7 @@ body {
 
 .security-cultures {
   font-family: var(--primary-font);
+  margin-top: 5rem;
 }
 .security-cultures .sec-heading {
   font-family: var(--primary-font);
@@ -303,4 +320,9 @@ body {
 }
 .security-cultures .sec-cards .card .card-text {
   font-size: 12px;
+}
+@media (max-width: 990px) {
+  .security-cultures {
+    margin-top: 8rem;
+  }
 }

@@ -7,15 +7,11 @@
         filter: invert(100%);
     }
 
-    // @media(max-width: 1150px) {
-    //     margin-top: 10rem;
-    // }
-
-    // @media(max-width: 650px) {
-    //     margin-top: 7rem;
-    //     .map {
-    //         height: 40vh;  
-    //     }
-    // }
+    @media(max-width: 650px) {
+        margin-top: 7rem;
+        .map {
+            height: 40vh;  
+        }
+    }
 
 }

@@ -1,5 +1,6 @@
 .security-cultures {
     font-family: var(--primary-font);
+    margin-top: 5rem;
     // position: relative;
     // z-index: 0;
 
@@ -56,6 +57,9 @@
         }
     }
 
+    @media (max-width: 990px) {
+        margin-top: 8rem;
+    }
     // @media (max-width: 1000px) {
     //     padding-inline: 2rem; 
     //     .sec-cards {

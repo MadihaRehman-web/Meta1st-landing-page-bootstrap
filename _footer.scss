@@ -13,7 +13,6 @@
             
             .email-input {
                 height: 3.125rem;
-                width: 24.375rem;
                 outline: none;
                 color: #3C64B1;
                 
@@ -23,7 +22,6 @@
             }
             
             .subscribe-btn {
-                width: 8.75rem;
                 height: 3rem;
                 background-image: linear-gradient(to bottom,  #B700E5, #8733F3);
                 font-family: var(--primary-font);
@@ -90,10 +88,11 @@
             }
         }
 
-        // @media (max-width: 1300px) {
-        //     column-gap: 5rem;
-        //     margin-inline: 2rem;
-        // }
+        @media (max-width: 700px) {
+            .footer-content {
+                padding-inline: 2rem;
+            }
+        }
 
         // @media (max-width: 1030px) {
         //     grid-template-columns: repeat(2, 1fr);

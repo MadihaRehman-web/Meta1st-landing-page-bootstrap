@@ -73,14 +73,16 @@
       </div>
     </nav>
     <main>
-      <section class="hero-section px-5">
-        <div class="container-fluid d-flex justify-content-between">
-          <div class="hero-content w-50">
-            <p class="fs-1 fw-bold w-75">
+      <section class="hero-section px-lg-5 px-md-3">
+        <div
+          class="container-fluid d-flex flex-sm-column flex-lg-row justify-content-between"
+        >
+          <div class="hero-content w-lg-50 w-100">
+            <p class="fs-1 fw-bold w-100">
               We help your organization
               <span class="pinkish-purple">Deploy</span>
             </p>
-            <p class="fs-5">
+            <p class="fs-5 w-100">
               Up to 90% reduction in Cyber Risk by employing an AI-driven
               platform that educates employees on cyber threats, captures and
               simulates real-world attacks for hands-on experience. Leveraging
@@ -88,9 +90,10 @@
               instant targeted training, and significantly reduces the
               organisation's exposure to prevalent cyber threats.
             </p>
-            <button class="hero-btn w-75">Try now</button>
+            <button class="hero-btn w-75 my-2">Try now</button>
           </div>
-          <div class="hero-img w-40">
+
+          <div class="hero-img w-40 d-lg-block d-none">
             <div class="circle circle1"></div>
             <div class="circle circle2"></div>
             <div class="circle circle3"></div>
@@ -102,13 +105,16 @@
           </div>
         </div>
       </section>
-      <section class="security-cultures px-5">
-        <p class="fs-1 fw-bold sec-heading text-center my-5">
+
+      <section class="security-cultures px-lg-5 px-md-3">
+        <p class="fs-1 fw-bold sec-heading text-center">
           Drive A Positive Security Culture.
         </p>
 
-        <div class="sec-cards container-fluid d-flex gap-4 p-5 text-center">
-          <div class="card p-3 py d-flex flex-column align-items-center">
+        <div
+          class="sec-cards container-fluid d-flex flex-lg-row flex-column gap-4 p-5 text-center"
+        >
+          <div class="card p-3 py d-flex flex-column align-items-center w-100">
             <img
               src="https://meta1st.ai/images/detection.gif"
               class="card-img-top"
@@ -126,7 +132,7 @@
             </div>
           </div>
 
-          <div class="card d-flex flex-column align-items-center p-3">
+          <div class="card d-flex flex-column align-items-center p-3 w-100">
             <img
               src="	https://meta1st.ai/images/remediate.gif"
               class="card-img-top"
@@ -144,7 +150,7 @@
               </p>
             </div>
           </div>
-          <div class="card d-flex flex-column align-items-center p-3">
+          <div class="card d-flex flex-column align-items-center p-3 w-100">
             <img
               src="https://meta1st.ai/images/automation.gif"
               alt="robot-img"
@@ -167,18 +173,18 @@
         </div>
       </section>
 
-      <section class="courses px-5">
+      <section class="courses px-sm-2 px-md-5">
         <div
-          class="container-fluid d-flex justify-content-between align-items-center"
+          class="container-fluid d-flex flex-column-reverse flex-lg-row gap-5 justify-content-between align-items-center"
         >
-          <div class="course-content w-50">
+          <div class="course-content w-lg-50 w-100">
             <p class="fs-1 fw-bold">
               Highly Engaging Videos And Courses For Your Organisation.
             </p>
-            <button class="w-75">Book Demo</button>
+            <button class="w-lg-75 w-100 mt-3">Book Demo</button>
           </div>
 
-          <div class="course-video w-50">
+          <div class="course-video w-lg-50 w-100">
             <video
               src="./assets/digital-transformation-technology.mp4"
               autoplay
@@ -191,9 +197,11 @@
         </div>
       </section>
 
-      <section class="risk-section px-5">
-        <div class="container-fluid d-flex gap-5 p-5">
-          <div class="d-flex flex-column w-50 gap-3">
+      <section class="risk-section px-lg-5 px-md-3">
+        <div
+          class="container-fluid d-flex flex-column flex-lg-row gap-5 p-lg-5 p-md-2"
+        >
+          <div class="d-flex flex-column w-lg-50 w-100 gap-3">
             <div class="d-flex">
               <img
                 src="./assets/man-standing-at-destination-point.png"
@@ -217,7 +225,7 @@
             </div>
           </div>
 
-          <div class="risk-graph w-50">
+          <div class="risk-graph w-lg-50 w-100">
             <img src="./assets/table.png" alt="table-image" class="w-100" />
           </div>
         </div>
@@ -237,8 +245,8 @@
 
       <footer class="footer">
         <div class="container-fluid footer-content">
-          <div class="row">
-            <div class="col-lg-5">
+          <div class="row g-4">
+            <div class="col-lg-5 col-12">
               <img src="./assets/footer-logo.png" alt="Meta-1st" />
               <p class="lh-3 my-4">
                 We are on an exciting journey to reshape cyber security
@@ -252,21 +260,23 @@
               <div>
                 <form
                   action=""
-                  class="subscribe rounded-3 d-flex justify-content-between align-items-center"
+                  class="subscribe rounded-3 d-flex justify-content-between align-items-center w-100"
                 >
                   <input
                     type="email"
                     placeholder="Your email Address"
-                    class="email-input bg-transparent border-0 fs-6 ps-4 p-3"
+                    class="email-input bg-transparent border-0 fs-6 ps-3"
                   />
-                  <button class="subscribe-btn rounded-3 fw-semibold border-0">
+                  <button
+                    class="subscribe-btn rounded-3 fw-lg-semibold fw-normal border-0 w-25"
+                  >
                     Subscribe
                   </button>
                 </form>
               </div>
             </div>
 
-            <div class="col-lg-2 offset-2">
+            <div class="col-lg-2 col-6 offset-lg-2">
               <p class="fw-semibold">Top Links</p>
               <ul class="list-group list-group-flush">
                 <a
@@ -297,7 +307,7 @@
               </ul>
             </div>
 
-            <div class="col-lg-2 offset-1 support">
+            <div class="col-lg-2 col-6 offset-lg-1 support">
               <p class="fw-semibold">Support</p>
               <ul class="list-group list-group-flush">
                 <a
