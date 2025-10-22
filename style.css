@@ -113,6 +113,99 @@ body {
   border-color: var(--text-color);
 }
 
+.footer {
+  font-family: var(--primary-font);
+  margin-top: 8rem;
+}
+.footer .footer-content {
+  padding-inline: 5rem;
+}
+.footer .footer-content .subscribe {
+  border: 0.5px solid #3C64B1;
+}
+.footer .footer-content .email-input {
+  height: 3.125rem;
+  width: 24.375rem;
+  outline: none;
+  color: #3C64B1;
+}
+.footer .footer-content .email-input::-webkit-input-placeholder {
+  color: #3C64B1;
+}
+.footer .footer-content .email-input::-moz-placeholder {
+  color: #3C64B1;
+}
+.footer .footer-content .email-input:-ms-input-placeholder {
+  color: #3C64B1;
+}
+.footer .footer-content .email-input::-ms-input-placeholder {
+  color: #3C64B1;
+}
+.footer .footer-content .email-input::placeholder {
+  color: #3C64B1;
+}
+.footer .footer-content .subscribe-btn {
+  width: 8.75rem;
+  height: 3rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B700E5), to(#8733F3));
+  background-image: linear-gradient(to bottom, #B700E5, #8733F3);
+  font-family: var(--primary-font);
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.footer .footer-content .subscribe-btn:hover {
+  -webkit-box-shadow: 0px 0px 5px 4px #5422BE;
+          box-shadow: 0px 0px 5px 4px #5422BE;
+}
+.footer a {
+  font-size: 0.875rem;
+}
+.footer .support .join-us {
+  font-family: var(--primary-font);
+}
+.footer .support .join-us .icons .fa-brands {
+  color: var(--text-color);
+  cursor: pointer;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-transition: background-color 0.5s ease-in-out 0.05;
+  transition: background-color 0.5s ease-in-out 0.05;
+}
+.footer .support .join-us .icons .fa-youtube:hover {
+  background-color: #FF0000;
+}
+.footer .support .join-us .icons .fa-facebook-f:hover {
+  background-color: #1877F2;
+}
+.footer .support .join-us .icons .fa-twitter:hover {
+  background-color: rgb(141, 141, 240);
+}
+.footer .support .join-us .icons .fa-instagram:hover {
+  background-color: #fd7b93;
+}
+.footer .support .join-us .icons .fa-linkedin-in:hover {
+  background-color: #0A66C2;
+}
+.footer .copy-rights {
+  margin-top: 5.5rem;
+  height: 2.875rem;
+  background-color: #8733F3;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.location {
+  margin-top: 13rem;
+}
+.location .map {
+  border-radius: 0.5rem;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
 .hero-section {
   margin-top: 7rem;
 }
@@ -155,15 +248,6 @@ body {
   height: 1.188rem;
   left: -2.188rem;
   bottom: 6rem;
-}
-
-.location {
-  margin-top: 13rem;
-}
-.location .map {
-  border-radius: 0.5rem;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
 }
 
 .risk-section {
