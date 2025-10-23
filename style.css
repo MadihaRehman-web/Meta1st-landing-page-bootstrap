@@ -52,13 +52,16 @@ body {
 .navbar .container-fluid .navbar-nav .nav-item .nav-link:focus {
   color: rgba(255, 44, 234, 0.7803921569) !important;
 }
-.navbar .container-fluid .theme-switcher .switch {
+.navbar .container-fluid .switch {
   position: relative;
   display: inline-block;
-  width: 4.375rem;
-  height: 1.7;
+  width: 70px;
+  height: 27px;
 }
-.navbar .container-fluid .theme-switcher .switch .slider {
+.navbar .container-fluid .switch input {
+  visibility: hidden;
+}
+.navbar .container-fluid .switch .slider {
   position: absolute;
   background-image: linear-gradient(135deg, #8aaff1 10%, #f9c290 50%, #e4ba17 100%);
   background-size: 100% 100%;
@@ -66,51 +69,48 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  border-radius: 2.125rem;
+  border-radius: 34px;
 }
-.navbar .container-fluid .theme-switcher .switch .slider::before {
+.navbar .container-fluid .switch .slider::before {
   position: absolute;
   content: "";
-  height: 1.25rem;
-  width: 1.25rem;
-  right: 0.2rem;
-  bottom: 0.13rem;
+  height: 20px;
+  width: 20px;
+  right: 5px;
+  bottom: 4px;
   background-color: white;
-  border-radius: 2.125rem;
+  border-radius: 34px;
   -webkit-transition: 1s;
   transition: 1s;
 }
-.navbar .container-fluid .theme-switcher .switch .slider::after {
+.navbar .container-fluid .switch .slider::after {
   content: "";
   position: absolute;
-  height: 0.688rem;
-  width: 0.688rem;
-  left: 0.5rem;
-  top: 0.313rem;
+  height: 11px;
+  width: 11px;
+  left: 8px;
+  top: 5px;
   background-color: rgb(249, 249, 153);
   -webkit-box-shadow: 0px 0px 8px 1px rgb(244, 244, 112);
           box-shadow: 0px 0px 8px 1px rgb(244, 244, 112);
-  border-radius: 2.125rem;
+  border-radius: 34px;
   -webkit-transition: 1s;
   transition: 1s;
 }
-.navbar .container-fluid .theme-switcher .switch input:checked + .slider {
+.navbar .container-fluid .switch input:checked + .slider {
   background-image: linear-gradient(135deg, #c33764 20%, #002746 60%, #1d2671 20%);
 }
-.navbar .container-fluid .theme-switcher .switch input:checked + .slider:after {
-  -webkit-transform: translateX(2.688rem);
-          transform: translateX(2.688rem);
+.navbar .container-fluid .switch input:checked + .slider:after {
+  -webkit-transform: translateX(43px);
+          transform: translateX(43px);
   background-color: white;
 }
-.navbar .container-fluid .theme-switcher .switch input:checked + .slider:before {
-  -webkit-transform: translateX(-2.7rem);
-          transform: translateX(-2.7rem);
+.navbar .container-fluid .switch input:checked + .slider:before {
+  -webkit-transform: translateX(-41px);
+          transform: translateX(-41px);
 }
 .navbar .container-fluid .user-auth .nav-link {
   color: var(--text-color);
-}
-.navbar .container-fluid .user-auth .sign-btn {
-  border-color: var(--text-color);
 }
 
 .footer {

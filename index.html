@@ -23,7 +23,9 @@
   <body data-bs-theme="dark" class="w-100">
     <nav class="navbar navbar-expand-lg px-5 pt-4">
       <div class="container-fluid">
-        <img src="./assets/brand-logo.png" alt="Meta1st.ai" />
+        <div>
+          <img src="./assets/brand-logo.png" alt="Meta1st.ai" />
+        </div>
 
         <button
           class="navbar-toggler"
@@ -36,7 +38,7 @@
 
         <div
           id="navbarToggler"
-          class="collapse navbar-collapse d-flex justify-content-end"
+          class="collapse navbar-collapse d-flex justify-content-center"
         >
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
@@ -56,18 +58,19 @@
               <a class="nav-link" href="#">Contact us</a>
             </li>
           </ul>
-          <div class="d-flex align-items-center">
-            <div class="theme-switcher">
-              <label for="toggleSwitch" class="switch">
-                <input type="checkbox" id="toggleSwitch" class="invisible" />
-                <span class="slider"></span>
-              </label>
-            </div>
+        </div>
 
-            <div class="user-auth d-flex">
-              <a href="#" class="nav-link">Log in</a>
-              <a href="#" class="sign-btn nav-link border rounded">Sign up</a>
-            </div>
+        <div class="d-flex align-items-center gap-2">
+          <div class="theme-switcher">
+            <label for="toggleSwitch" class="switch">
+              <input type="checkbox" id="toggleSwitch" class="invisible" />
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="user-auth d-flex gap-2 align-items-center">
+            <a href="#" class="nav-link">Log in</a>
+            <a href="#" class="nav-link border rounded-2 p-1 fs-6">Sign up</a>
           </div>
         </div>
       </div>
