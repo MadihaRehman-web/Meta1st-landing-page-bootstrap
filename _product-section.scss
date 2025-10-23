@@ -32,29 +32,30 @@
         .product-box {
             border: 2px solid #3846C3;
             background-color: var(--product-card);
-            box-shadow: 6px 6px 30px #f60edf26;
+            box-shadow: 6px 6px 40px #cb25bb90;
 
 
-            .product-1-logo {
+            .product-logo {
                 img {
-                    height: 4rem;
+                    height: 3rem;
                 }
             }
             
-            .product-2-logo {
-                img {
-                    height: 4rem;
-                }
-            }
 
             .content {    
                 p {
                     padding-inline: 5rem;
+                    font-size: 1.2rem;
                 }
 
                 @media (max-width: 1200px) {
                     p {
-                        padding-inline: 3rem;
+                        padding-inline: 2rem;
+                    }
+                }
+                @media (max-width: 500px) {
+                    p {
+                        font-size: 1rem;
                     }
                 }
             }

@@ -33,6 +33,10 @@
         .risk-value {
             font-size: 4rem;
             border-right: 8px solid #5422BE;
+
+            @media (max-width: 576px) {
+                font-size: 3rem;
+            }
         }
     }
 

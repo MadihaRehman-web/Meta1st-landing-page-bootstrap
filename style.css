@@ -115,7 +115,7 @@ body {
 
 .footer {
   font-family: var(--primary-font);
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 .footer .footer-content {
   padding-inline: 5rem;
@@ -187,7 +187,7 @@ body {
 }
 @media (max-width: 700px) {
   .footer .footer-content {
-    padding-inline: 2rem;
+    padding-inline: 1rem;
   }
 }
 .footer .copy-rights {
@@ -218,12 +218,12 @@ body {
 }
 
 .hero-section {
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 .hero-section .container-fluid {
-  -webkit-column-gap: 3rem;
-     -moz-column-gap: 3rem;
-          column-gap: 3rem;
+  -webkit-column-gap: 14rem;
+     -moz-column-gap: 14rem;
+          column-gap: 14rem;
 }
 .hero-section .container-fluid .hero-content .pinkish-purple {
   color: rgba(255, 44, 234, 0.7803921569);
@@ -265,6 +265,13 @@ body {
   left: -2.188rem;
   bottom: 6rem;
 }
+@media (max-width: 1230px) {
+  .hero-section .container-fluid {
+    -webkit-column-gap: 5rem;
+       -moz-column-gap: 5rem;
+            column-gap: 5rem;
+  }
+}
 
 .risk-section {
   font-family: var(--primary-font);
@@ -277,6 +284,11 @@ body {
 .risk-section .container-fluid .risk-value {
   font-size: 4rem;
   border-right: 8px solid #5422BE;
+}
+@media (max-width: 576px) {
+  .risk-section .container-fluid .risk-value {
+    font-size: 3rem;
+  }
 }
 
 .courses {
@@ -296,21 +308,24 @@ body {
 .products-section .products .product-box {
   border: 2px solid #3846C3;
   background-color: var(--product-card);
-  -webkit-box-shadow: 6px 6px 30px rgba(246, 14, 223, 0.1490196078);
-          box-shadow: 6px 6px 30px rgba(246, 14, 223, 0.1490196078);
+  -webkit-box-shadow: 6px 6px 40px rgba(203, 37, 187, 0.5647058824);
+          box-shadow: 6px 6px 40px rgba(203, 37, 187, 0.5647058824);
 }
-.products-section .products .product-box .product-1-logo img {
-  height: 4rem;
-}
-.products-section .products .product-box .product-2-logo img {
-  height: 4rem;
+.products-section .products .product-box .product-logo img {
+  height: 3rem;
 }
 .products-section .products .product-box .content p {
   padding-inline: 5rem;
+  font-size: 1.2rem;
 }
 @media (max-width: 1200px) {
   .products-section .products .product-box .content p {
-    padding-inline: 3rem;
+    padding-inline: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .products-section .products .product-box .content p {
+    font-size: 1rem;
   }
 }
 .products-section .products .product-box .started-btn {

@@ -1,7 +1,7 @@
 .hero-section {
-    margin-top: 7rem;
+    margin-top: 8rem;
     .container-fluid {
-        column-gap: 3rem;
+        column-gap: 14rem;
         .hero-content {
             .pinkish-purple {
                 color: #ff2ceac7;
@@ -53,6 +53,10 @@
             left: -2.188rem;
             bottom: 6rem;
         }
+    }
+
+    @media (max-width: 1230px) {
+        column-gap: 5rem;
     }
     }
 
