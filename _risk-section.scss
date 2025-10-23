@@ -39,55 +39,6 @@
             }
         }
     }
-
-
-    // @media(max-width: 1350px) {
-    //     padding-inline: 3rem;
-    //     .risk-outer-container {
-    //         padding-inline: 3rem;
-    // } }
-
-    // @media(max-width: 1000px) {
-    // &::before {
-    //     width: 22rem;
-    // }
-    // &::after {
-    //     width: 25rem;
-    // }
-        
-    //     .risk-outer-container {
-    //         padding-block: 3rem 0rem;
-    //         row-gap: 3rem;
-    //         flex-direction: column;
-
-    //         .risk-data {
-    //             width: 100%;
-    //         }
-    //         .risk-graph {
-    //            width: 90%;
-    //         }
-    //     }
-    // }
-
-    // @media(max-width: 600px) {
-        // padding-inline: 2rem;
-    //     .risk-outer-container {
-    //         padding-inline: 1rem;
-    //         .risk-heading {        
-    //             div {
-    //                 @include fonts-line($size:1.5rem);
-    //             }
-    //         }
-        
-    //         .risk-content {
-    //             @include fonts-line($size:1rem);
-    //         }
-        
-    //         .risk-value {
-    //             @include fonts-line($size:2rem);
-    //         }
-    //     }
-    // }
 }
 
 

@@ -92,33 +92,12 @@
                 padding-inline: 1rem;
             }
         }
-
-        // @media (max-width: 1030px) {
-        //     grid-template-columns: repeat(2, 1fr);
-        //     gap: 2rem;
-        //     margin-inline: 3rem;
-        //     margin-top: 10rem;
-
-
-        //     .info {
-        //         grid-column-start: span 3;
-
-        //     .email-input {
-        //         width: 100%;
-        //     }                
-        //     }
-        // }
         .copy-rights {
             margin-top: 5.5rem;
             height: 2.875rem;
             background-color: #8733F3;
             color: white;
             align-items: center;
-        
-            // @media (max-width: 500px) {
-            //     @include fonts-line($size:0.90rem);
-        
-            // }
         }
 }
 
