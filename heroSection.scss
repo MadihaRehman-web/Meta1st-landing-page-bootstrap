@@ -1,5 +1,17 @@
 .hero-section {
     margin-top: 8rem;
+
+    &::before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 4rem;
+    left: 0rem;
+    background: url("./assets/hero-section-ellipse/Ellipse\ \(2\).png") no-repeat left/cover;
+    width: 22rem;
+    height: 35.563rem;
+    }
+    
     .container-fluid {
         column-gap: 14rem;
         .hero-content {

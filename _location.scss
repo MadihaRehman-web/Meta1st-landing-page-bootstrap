@@ -1,12 +1,8 @@
 .location {
     margin-top: 13rem;
-    // position: relative;
-    // z-index: 0;
-    .map {
-        border-radius: 0.5rem;     
+    .map {     
         filter: invert(100%);
     }
-
     @media(max-width: 650px) {
         margin-top: 7rem;
         .map {

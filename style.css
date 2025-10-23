@@ -185,7 +185,7 @@ body {
 .footer .support .join-us .icons .fa-linkedin-in:hover {
   background-color: #0A66C2;
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .footer .footer-content {
     padding-inline: 1rem;
   }
@@ -194,17 +194,12 @@ body {
   margin-top: 5.5rem;
   height: 2.875rem;
   background-color: #8733F3;
-  color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .location {
   margin-top: 13rem;
 }
 .location .map {
-  border-radius: 0.5rem;
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
@@ -219,6 +214,16 @@ body {
 
 .hero-section {
   margin-top: 8rem;
+}
+.hero-section::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 4rem;
+  left: 0rem;
+  background: url("./assets/hero-section-ellipse/Ellipse (2).png") no-repeat left/cover;
+  width: 22rem;
+  height: 35.563rem;
 }
 .hero-section .container-fluid {
   -webkit-column-gap: 14rem;
@@ -277,6 +282,26 @@ body {
   font-family: var(--primary-font);
   margin-top: 9rem;
 }
+.risk-section::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -7.5rem;
+  left: 0rem;
+  background: url("./assets/risk-ellipse/Ellipse (5).png") no-repeat left/contain;
+  width: 47.5rem;
+  height: 47.5rem;
+}
+.risk-section::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -10.563rem;
+  left: -7.563rem;
+  background: url("./assets/risk-ellipse/Ellipse (6).png") no-repeat left/cover;
+  width: 32rem;
+  height: 49rem;
+}
 .risk-section .container-fluid {
   border-radius: 2.5rem;
   background-color: var(--risk-container);
@@ -304,6 +329,26 @@ body {
 .products-section {
   margin-top: 11rem;
   font-family: var(--primary-font);
+}
+.products-section::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  left: 0rem;
+  top: 28.625rem;
+  background: url("./assets/product-ellipse/Ellipse (7).png") no-repeat left/cover;
+  height: 39.5rem;
+  width: 21.5rem;
+}
+.products-section::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  right: 0rem;
+  top: 36.375rem;
+  background: url("./assets/product-ellipse/Ellipse (8).png") no-repeat right/cover;
+  height: 39.5rem;
+  width: 21.5rem;
 }
 .products-section .products .product-box {
   border: 2px solid #3846C3;
@@ -354,16 +399,36 @@ body {
   font-family: var(--primary-font);
   margin-top: 5rem;
 }
+.security-cultures::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -5.313rem;
+  left: 0rem;
+  background: url("./assets/security-culture-ellipse/Ellipse (3).png") no-repeat left/cover;
+  width: 21rem;
+  height: 28.563rem;
+}
+.security-cultures::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -3.313rem;
+  right: 0rem;
+  background: url("./assets/security-culture-ellipse/Ellipse (4).png") no-repeat right/cover;
+  width: 20.5rem;
+  height: 47.5rem;
+}
 .security-cultures .sec-heading {
   font-family: var(--primary-font);
 }
 .security-cultures .sec-cards {
   background-color: var(--sec-card-container);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .security-cultures .sec-cards .card {
   width: 36.6%;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   min-height: 21.375rem;
   background-color: var(--sec-card);
   -webkit-transition: all 1s ease;
@@ -380,7 +445,7 @@ body {
   width: 8rem;
 }
 .security-cultures .sec-cards .card .card-text {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 @media (max-width: 990px) {
   .security-cultures {
